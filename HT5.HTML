@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arte en Tonos Azules</title>
+    <style>
+       
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f7fd; /* Color de fondo azul claro */
+            margin: 0;
+            padding: 0;
+            color: #333; /* Color de texto oscuro */
+        }
+        header {
+            background-color: #8ab6d6; /* Azul claro para el encabezado */
+            color: #fff; /* Texto blanco para el encabezado */
+            padding: 15px;
+            text-align: center;
+align-items :center;
+display: flex;
+        }
+
+  .subheader {
+            background-color: #D5DBFD  ; /* azul medio para el subencabezado contacto y gmail */
+            color: #021066; /* Texto blanco para el subencabezado con iconos*/
+            padding: 10px 10px;
+            text-align: center;
+font-size: 15px;
+        }
+        nav {
+            background-color: #b0d4f1; /* Azul más claro para la barra de navegación */
+            color: #333; /* Texto oscuro para la barra de navegación */
+            padding: 20px;
+            text-align: center;
+            font-size: 20px;
+        }
+        nav a {
+            color: #333; /* Texto oscuro para los enlaces de la barra de navegación */
+            text-decoration: none;
+            margin: 0 10px;
+        }
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #b0d4f1;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: transform 0.3s; /* Animación de movimiento */
+}
+
+nav ul li:hover {
+    background-color: #b0d4f1;/* Cambio de color al pasar el cursor */
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: #b0d4f1; /* Color azul del menu */
+    min-width: 150px;
+}
+
+nav ul li:hover > ul {
+    display: block;
+}
+
+nav ul li ul li {
+    display: block;
+}
+
+nav ul li ul li a {
+    padding: 10px;
+transition: transform 0.3s; /* Animación de movimiento */
+}
+
+nav ul li ul li:hover {
+    background-color: #B0C4DE; /* Cambio de color al pasar el cursor */
+color: #f00; /* Color al pasar el puntero */
+}
+nav ul li a:hover,
+nav ul li ul li a:hover {
+    transform: translateY(-5px); /* Movimiento hacia arriba al pasar el cursor */
+}
+nav ul li a:hover {
+  color: #00008B; /* Color al pasar el puntero */
+}
+
+        section {
+            padding: 10px;
+            margin: 10px;
+            background-color: #fff; /* Fondo blanco para las secciones */
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+           height: 3220px; /*largo del sitio*/
+        }
+form {
+            text-align: right;
+            margin-bottom: 5px ;
+padding-bottom: 10px;
+padding-top: 6px;
+        }
+ input[type="text"] {
+           width: 300px;
+        padding: 8px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        outline: none;
+        background-color: white; /* Fondo blanco de barra de busqueda */
+        color: #007bff; /* Texto barra de busqueda*/
+}
+        input[type="submit"] {
+            padding: 10px 20px;
+        border: none;
+        background-color: #6495ED ; /* Botón buscar */
+        color: white;
+        border-radius: 6px;
+        cursor: pointer;
+margin-bottom: 3px;
+font-size: 16px;
+        }
+
+/* Estilos generales del contenedor */
+.contenedor {
+  display: flex;
+  align-items: center;
+  background-color: #add8e6; /* Azul claro */
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 800px; /* Ancho máximo del contenedor */
+margin-bottom: 20px;
+overflow: hidden; /* Oculta el desbordamiento */
+  position: relative;
+
+}
+
+/* Estilos de la imagen */
+.contenedor img {
+  width: 100%; /* Ancho de la imagen (ajustable) */
+  border-radius: 10px;
+}
+p{
+font-family: cursive;
+font-size:20px;
+}
+   
+ /* Estilos para el logo */
+.logo img {
+    max-width: 100px; /* Ajusta el tamaño del logo según sea necesario */
+}        
+    </style>
+</head>
+<body>
+
+
+
+<div class="subheader">
+
+
+<div style=float:right;
+<div style=text-align: center;
+<div class="content-envelope-cart">
+<span class="text">Gmail</span>
+<i class="fa-solid fa-envelope fa-shake fa-2xl" style="color: #021066;"></i>
+<a href="jennifermaricelagalo@gmail.com"><span class="text">jennifergalo@gmail.com</span></a>
+</div>
+
+<div style=float:center;
+display: flex;
+flex-direcction: column;
+<div style=text-align: center;
+<div class="container-user">
+<a href="https://wa.me/99591339">
+<i src="fa-solid fa-user" alt="contacto" class="container-user">
+<i class="fa-solid fa-user fa-beat-fade fa-xl"></i></a>
+<span class="text">Contacto</span>
+<span class="number">9959-1339</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<header>
+<div class="logo">
+            <img src="https://i.pinimg.com/736x/61/e1/d4/61e1d492680daa455023fcf932253c6d.jpg" alt="Logo de la empresa">
+        </div>
+    <h1>Historia del Arte</h1>
+    
+</header>
+
+<nav>
+   <ul>
+            <li><a href="#">Historia</a>
+                <ul>
+                    <li><a href="index.html">Quiénes somos</a></li>
+                    <li><a href="#">Historia del Arte</a></li>
+                </ul>
+            </li>
+    <li><a href="#">Temas</a>
+                <ul>
+                    <li><a href="HT6.HTML">Teoria del Color</a></li>
+                    <li><a href="HT4.HTML">Tecnicas</a></li>
+                </ul>
+            </li>
+      <li><a href="HT2.HTML">Galeria</a></li>
+            <li><a href="HTM3.HTML">Tutoriales</a>
+          </li>
+<form action="#" method="GET">
+
+<input type="text" name="q" placeholder="Buscar arte...">
+            <input type="submit" value="Buscar">
+</form>
+
+   
+</nav>
+<head>
+<section>
+    <h2>QUE ES EL ARTE</h2>
+    <p>El arte es toda forma de expresión de carácter creativo que poseen los seres humanos. Es la capacidad que tiene el hombre para representar sus sentimientos, emociones y percepciones acerca de sus vivencias y el entorno que lo rodea.A través de las diferentes disciplinas artísticas, un individuo puede expresar lo que es y lo que siente mediante una infinidad de formas y técnicas entre las que se destacan el uso de recursos lingüísticos, plásticos y sonoros. En muchos países, el arte es uno de los componentes más importantes de la cultura.</p>
+<center>
+<div class="contenedor">
+  <img src="https://concepto.de/wp-content/uploads/2015/04/arte-origen-prehistoria-parietal-e1592165452242.jpg" alt="Imagen">
+  </div>
+</center>
+<p>Las primeras representaciones artísticas de las que se tiene registro datan de la prehistoria: la Edad de Piedra (Paleolítico, Mesolítico y Neolítico) y la Edad de los Metales. Durante este período (que se extendió desde el inicio de la evolución humana hasta el 3000 a. C.) surgieron las primeras obras de arte</p>
+<p>Se utilizaban pigmentos naturales, como la arcilla y el óxido, para realizar dibujos sobre la piedra de las cuevas; en ellos representaron su estilo de vida y lo que observaban en el medio que los rodeaba. Pintaron animales (leones, hienas, caballos y rinocerontes) y escenas de caza.</p>
+
+<p>Sin embargo, el hallazgo de pinturas anteriores a la aparición del homo sapiens sugiere que el arte rupestre posee una larga tradición cultural y que fue iniciado por el hombre de Neandertal que habitó hace más de 40.000 años.
+<center>
+<img src="https://wooarts.com/wp-content/uploads/sites/1/nggallery/vincent-van-gogh/04-fields-vincent-van-gogh-070.jpg" alt="Imagen" height="700">
+ </center>
+<p>Otro registro artístico prehistórico fueron las llamadas “venus paleolíticas”, pequeñas estatuas de figuras femeninas talladas en piedra, madera, hueso o barro que eran utilizadas en ritos de fecundación.</p>
+
+<p>Las primeras civilizaciones también elaboraron herramientas y utensilios de piedra, madera y hueso, aunque se cree que estos tenían un fin más utilitario que artístico.</p>
+
+
+
+<style>
+/* Estilos generales del contenedor */
+.contenedor {
+  display: flex;
+  background-color: #87ceeb; /* Color de fondo */
+  padding: 20px;
+}
+
+/* Estilos del texto */
+.texto {
+  flex: 1; /* Ocupa el espacio restante */
+  padding-right: 20px; /* Espacio entre el texto y la imagen */
+}
+
+/* Estilos de la imagen */
+.imagen {
+  flex: 1; /* Ocupa el espacio restante */
+}
+
+/* Estilos adicionales para el texto */
+h2 {
+  color: #333; /* Color del texto */
+
+}
+
+p {
+  color: #333; /* Color del texto */
+}
+
+</style>
+
+<body>
+ <h2>CARACTERISTICAS DEL ARTE</h2>
+
+
+<div class="contenedor">
+  <div class="texto">
+    <h2>Es Dinamico</h2>
+    <p> El arte está en constante transformación. Las representaciones artísticas varían con el tiempo y según las diferentes sociedades o culturas.</p>
+
+ </div>
+  <div class="imagen">
+    <img src="https://humanidades.com/wp-content/uploads/2019/05/arte-3-e1589033485291.jpg" alt="Imagen">
+  </div>
+</div>
+
+
+<div style=float:right;
+<div class="contenedor">
+  <div class="texto">
+    <h2>Es subjetivo</h2>
+    <p> El arte está formado por representaciones artísticas originales y únicas que no pueden ser replicadas. Cada artista traduce, interpreta y representa el mundo según su propio punto de vista.</p>
+
+ </div>
+  <div class="imagen">
+    <img src="https://humanidades.com/wp-content/uploads/2019/05/arte-3-e1589033485291.jpg" alt="Imagen">
+  </div>
+</div>
+</div>
+
+
+
+<div style=float:left;
+<div class="contenedor">
+  <div class="texto">
+    <h2>Es universal</h2>
+    <p>El arte y la capacidad de producirlo es inherente al ser humano. Las expresiones artísticas son realizadas por individuos y grupos sin distinción de cultura, raza o género.</p>
+
+ </div>
+  <div class="imagen">
+    <img src="https://humanidades.com/wp-content/uploads/2019/05/arte-3-e1589033485291.jpg" alt="Imagen">
+  </div>
+</div>
+</div>
+
+
+<div style=float:right;
+<div class="contenedor">
+  <div class="texto">
+    <h2>Es un medio de expresión</h2>
+    <p>El arte se erige como el medio de expresión por excelencia para el ser humano. A lo largo de la historia, el hombre creó y encontró diversas maneras de transmitir y expresar emociones, opiniones, pensamientos y valores a través de los diferentes lenguajes artísticos.</p>
+
+ </div>
+  <div class="imagen">
+    <img src="https://humanidades.com/wp-content/uploads/2019/05/arte-3-e1589033485291.jpg" alt="Imagen">
+  </div>
+</div>
+</div>
+
+
+
+<div style=float:left;
+<div class="contenedor">
+  <div class="texto">
+    <h2>Es contemplativo</h2>
+    <p>El arte no tiene un fin utilitario. Su fin es estético y es considerado una forma de expresión que busca la belleza.</p>
+
+ </div>
+  <div class="imagen">
+    <img src="https://humanidades.com/wp-content/uploads/2019/05/arte-3-e1589033485291.jpg" alt="Imagen">
+  </div>
+</div>
+</div>
+
+
+
+<div style=float:right;
+<div class="contenedor">
+  <div class="texto">
+    <h2>Es una actividad creativa</h2>
+    <p>El arte es la actividad creativa por excelencia. A través de las diferentes disciplinas artísticas, el ser humano utiliza su potencial y capacidades para crear.</p>
+
+ </div>
+  <div class="imagen">
+    <img src="https://humanidades.com/wp-content/uploads/2019/05/arte-3-e1589033485291.jpg" alt="Imagen">
+  </div>
+</div>
+</div>
+
+
+<div style=float:left;
+<div class="contenedor">
+  <div class="texto">
+    <h2>Es multidisciplinario</h2>
+    <p>El arte se vale de multiplicidad de herramientas y métodos para ser representado. El sonido, la escritura, la pintura son algunos de los recursos más utilizados en el arte.</p>
+
+ </div>
+  <div class="imagen">
+    <img src="https://humanidades.com/wp-content/uploads/2019/05/arte-3-e1589033485291.jpg" alt="Imagen">
+  </div>
+</div>
+</div>
+
+<div style=float:right;
+<div class="contenedor">
+  <div class="texto">
+    <h2>Es subjetivo</h2>
+    <p> El arte está formado por representaciones artísticas originales y únicas que no pueden ser replicadas. Cada artista traduce, interpreta y representa el mundo según su propio punto de vista.</p>
+
+ </div>
+
+
+
+
+
+
+</body>
+
+</head>
+
+</section>
+
+<style>
+ section {
+            padding: 10px;
+            margin: 10px;
+            background-color: #fff; /* Fondo blanco para las secciones */
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+           height: 4120px; /*largo del sitio*/
+        }
+</style>
+
+
+
+<section>
+<h2>¿Cuáles son las disciplinas artísticas?</h2>
+<p>Arte - Fotografía</p>
+<center>
+<div class="contenedor">
+ <img src="https://humanidades.com/wp-content/uploads/2019/05/arte-4-e1589034215172.jpg" alt="Imagen">
+ 
+  </div>
+</center>
+<p>La fotografía se basa en la captura de imágenes que se encuentren o no en movimiento.</p>
+<h2>El arte suele ser representado a través de diferentes disciplinas artísticas. Todos estos tipos de arte han ido avanzando con el tiempo. Entre los más importantes se destacan:</h2>
+
+<h3>Artes visuales</h3>
+
+<h4>Arquitectura.</h4><p> Conjunto de técnicas que se utiliza para proyectar y concretar la construcción de casas y edificios. Es un proceso que abarca el diseño de estructuras para un uso futuro, como las escuelas, instituciones u hospitales. Siglos atrás, la arquitectura se realizaba mediante procesos muy diferentes a los actuales, con otros materiales y métodos de construcción.</p>
+<h4>Arte corporal.</h4><p> Disciplina artística que utiliza al cuerpo humano como soporte. Dentro de este tipo de arte se encuentra el maquillaje, el vestuario, los piercings y los tatuajes.</P>
+<h4>Arte digital.</h4><p> Disciplina artística que utiliza medios digitales y tecnológicos para la confección de piezas. Es uno de los recursos artísticos más utilizados en los últimos años.</p>
+<h4>Cinematografía.</h4><p> Técnica artística mediante la cual se reproducen secuencias de imágenes lo que crea una sensación de movimiento. La cinematografía surgió en 1895.</p>
+<h4>Dibujo.</h4><p> Técnica artística que se basa en la representación gráfica de cualquier tipo de elemento. Es el tipo de arte más conocido y uno de los recursos que funciona como base para otros tipos de arte.</p>
+<h4>Escultura.</h4>
+<center>
+<div class="contenedor">
+ <img src="https://humanidades.com/wp-content/uploads/2019/05/arte-3-e1589033485291.jpg" alt="Imagen">
+ 
+ </div>
+</center>
+<p> Técnica artística que se basa en la creación de obras modeladas con las manos con varios tipos de materiales como el barro, la arcilla, la madera o el metal.</p>
+<h4>Fotografía.</h4><p> Técnica basada en la captura de cualquier tipo de imagen que se encuentre o no en movimiento. Durante los últimos años esta técnica ha ido avanzando con rapidez.</p>
+<h4>Historieta.</h4><p> Disciplina artística que combina relatos cortos con imágenes y dibujos que se plasman en recuadros o viñetas.</p>
+<h4>Pintura.</h4><p> Disciplina artística en la que se crean imágenes por medio de pigmentos de color. Es realizada sobre una gran cantidad de superficies como la madera, el papel, el metal.</p>
+<h3>Artes escénicas</h3>
+
+<h4>Danza.</h4><p> Disciplina artística en la que se utiliza el movimiento del cuerpo humano acompañado, generalmente, de música. La mayoría de las culturas posen un tipo de danza característico.</p>
+<h4>Teatro.</h4>
+<center>
+<div class="contenedor">
+  <img src="https://humanidades.com/wp-content/uploads/2019/05/arte-5-e1589034764860.jpg" alt="Imagen">
+  </div>
+</center>
+<p> Disciplina artística en la cual un grupo de personas (actores y actrices), realizan una representación de un drama literario sobre un escenario.</p>
+<h3>Artes musicales</h3>
+
+<h4>Canto.</h4> <p>Técnica artística que se realiza haciendo uso de la voz.<p>
+<h4>Música.</h4>
+<center>
+<div class="contenedor">
+  <img src="https://humanidades.com/wp-content/uploads/2019/05/arte-1-e1589033144758.jpg" alt="Imagen">
+  </div>
+</center>
+<p> Disciplina artística en la cual se utiliza cualquier tipo de instrumento musical o sonidos para generar un ritmo. La música también incluye al canto.</p>
+<h3>Artes literarias</h3>
+
+<h4>Poesía.</h4> <p>Composición literaria escrita en verso o prosa que se utiliza para expresar ideas, sentimientos y emociones.</p>
+<h4>Narrativa.</h4><p> Composición literaria escrita en prosa que cuenta una historia a través de un narrador. Entre las formas más comunes están los cuentos y las novelas.</p>
+<h4>Drama.</h4><p> Composición literaria basada en el diálogo entre dos o más personas. A través del diálogo se presenta una historia en la que se desarrollan las acciones de los personajes.</p>
+
+
+
+
+</section>
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pie de Página con Animaciones</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<head>
+<style>
+footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-family: sans-serif;
+text-transform: capitalize;
+    
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+ box-sizing: border-box;
+            animation: colorChange 10s infinite alternate; /*animasion de cambio de colores*/
+       text-decoration: none;
+}
+@keyframes colorChange {
+            0% { background-color: #ADD8E6; }
+            25% { background-color: #ADD8E6; }
+            50% { background-color: #ADD8E6; }
+            75% { background-color: #87CEEB; }
+            100% { background-color: #87CEEB; }
+        }
+footer {
+    background-color: #F62B09;
+    color: #fff
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.seccion {
+    text-align: left;
+display: block;
+font-size: 18px;
+text-decoration: none;
+margin-bottom: 10px;
+font-weight: 500;
+padding-bottom: 10px;
+transition: all .5s ease; /*animacion de las letras */
+}
+
+.seccion h3 {
+    margin-bottom: 3px;
+border-bottom: 3px solid #FF0000;
+display: inline-block;
+padding: 10px 25px;
+}
+
+.seccion ul {
+    list-style: none;
+    padding: 0;
+}
+
+.seccion ul li {
+    margin-bottom: 3px;
+}
+
+.seccion ul li a {
+    color: #000000;
+    text-decoration: none;
+    transition: color 0.3s ease;
+display: block;
+margin-bottom: 10px;
+transition: all .3s ease;
+}
+
+.seccion ul li a:hover {
+    color: #fff;
+    transform: scale(1.1);
+}
+.social-links a { /*Enlaces sociales*/
+display: inline-block;
+margin: 0 10px 10px 0;
+transition: all .5s ease;
+text-decoration: none;
+}
+.social-links a:hover {
+background-color: #FFA07A;
+ text-align: center;
+}
+</style>
+</head>
+
+<body>
+    <footer>
+        <div class="seccion">
+            <h3>Historia</h3>
+            <ul>
+             <li><a href="#" onclick="showHistory()">Historia</a></li>
+<li><a href="#" onclick="toggleGallery()">Galería</a></li>
+            <li><a href="#">Tutoriales</a></li>
+            <li><a href="#">Temas</a></li>
+
+            </ul>
+        </div>
+        <div class="seccion">
+            <h3>Galería</h3>
+            <ul>
+              <li><a href="#" onclick="showHistory()">Historia</a></li>
+<li><a href="#" onclick="toggleGallery()">Galería</a></li>
+            <li><a href="#">Tutoriales</a></li>
+            <li><a href="#">Temas</a></li>
+
+            </ul>
+        </div>
+        <div class="seccion">
+            <h3>Temas</h3>
+            <ul>
+               <li><a href="#" onclick="showHistory()">Historia</a></li>
+<li><a href="#" onclick="toggleGallery()">Galería</a></li>
+            <li><a href="#">Tutoriales</a></li>
+            <li><a href="#">Temas</a></li>
+
+            </ul>
+        </div>
+        <div class="seccion">
+            <h3>Tutoriales</h3>
+            <ul>
+              <li><a href="#" onclick="showHistory()">Historia</a></li>
+<li><a href="#" onclick="toggleGallery()">Galería</a></li>
+            <li><a href="#">Tutoriales</a></li>
+            <li><a href="#">Temas</a></li>
+
+            </ul>
+        </div>
+<div class="seccion">
+            <h3>Siguenos</h3>
+          <div class="social-links">
+<div style="hight:60px;vertical-align:top;"><p></p></div>
+<a href="https://www.facebook.com/Jennifer Galo"><i class="fa-brands fa-square-facebook fa-bounce fa-2xl" style="color: #1E90FF;"></i></a>
+ 
+<div style="vertical-align:top;"><p></p></div>
+<a href="https://www.instagram.com/jenn_galo_"><i class="fa-brands fa-square-instagram fa-bounce fa-2xl" style="color: #1E90FF;"></i></a>
+ 
+<div style="vertical-align:top;"><p></p></div>
+  <a href="jennifermaricelagalo@gmail.com">
+<i class="fa-solid fa-envelope fa-bounce fa-2xl" style="color: #1E90FF;"></i>
+</a>
+
+  </div>
+ </style>
+ </footer>
+   </body>    
+
+<script 
+src="https://kit.fontawesome.com/df0ef9282b.js" 
+crossorigin="anonymous">
+</script>
+</html>
+
+
+
+
+
+
+
+<script 
+src="https://kit.fontawesome.com/df0ef9282b.js" 
+crossorigin="anonymous">
+</script>
